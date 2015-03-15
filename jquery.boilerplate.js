@@ -14,9 +14,11 @@
 		// minified (especially when both are regularly referenced in your plugin).
 
 		// Create the defaults once
-		var pluginName = "defaultPluginName",
-				defaults = {
-				propertyName: "value"
+		var pluginName = "defaultPluginName";
+		
+		// Create default options
+		var defaults = {
+			propertyName: "value"
 		};
 
 		// The actual plugin constructor
